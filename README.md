@@ -1,4 +1,4 @@
-# Doctor Application - Find a Doctor
+# Find a doctor - Mobile App
 
 A mobile application built with Flutter that helps users find doctors and book appointments.
 
