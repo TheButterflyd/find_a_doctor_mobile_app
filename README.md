@@ -1,14 +1,15 @@
 # Doctor Application - Find a Doctor
 
-O aplicație mobilă realizată în Flutter care ajută utilizatorii să găsească medici și să programeze consultații.
+A mobile application built with Flutter that helps users find doctors and book appointments.
 
-## Tehnologii folosite:
+## Technologies Used:
 - Flutter / Dart
-- Firebase (Autentificare și Bază de date)
-- OpenAI API (pentru asistență inteligentă)
+- Firebase (Authentication and Database)
+- OpenAI API (for intelligent medical assistance)
 
-## Instalare
-1. Clonează repository-ul.
-2. Creează un fișier `.env` în rădăcina proiectului cu cheia ta: `OPENAI_API_KEY=cheia_ta_aici`
-3. Rulează `flutter pub get`
-4. Rulează `flutter run`
+## Setup and Installation
+1. Clone the repository.
+2. Create a `.env` file in the project root directory and add your API key:
+   `OPENAI_API_KEY=your_api_key_here`
+3. Run `flutter pub get` to install dependencies.
+4. Run `flutter run` to start the application.
