@@ -1,6 +1,6 @@
 # Find a doctor - Mobile App
 
-A mobile application built with Flutter that helps users find doctors and book appointments.
+Prototype app: A mobile application built with Flutter that helps users find doctors and book appointments.
 
 ## Technologies Used:
 - Flutter / Dart
