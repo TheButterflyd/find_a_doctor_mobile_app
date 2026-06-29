@@ -11,6 +11,12 @@ void main() async {
   
   await dotenv.load(fileName: ".env");
 
+  // Pass Google Maps API key to iOS
+  const platform = MethodChannel('com.example.doctorAplicattion/config');
+  await platform.invokeMethod('setGoogleMapsKey', {
+    'apiKey': dotenv.env['GOOGLE_MAPS_API_KEY'],
+  });
+
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
